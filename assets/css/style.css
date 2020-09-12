@@ -1,0 +1,161 @@
+@font-face {
+  font-family: Fira;
+  src: url(../fonts/FiraSans-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Fira;
+  	background: #222222;
+  	width: 40%;
+  	margin: auto;
+}
+
+/* Title */
+.header {
+	font-size: 36px;
+	text-align: center;
+	background: #222222;
+	color: #ffffff;
+}
+
+h2 {
+	font-size: 24px;
+	margin: 0;
+  	padding: 0;
+}
+
+h5 {
+	font-size: 12px;
+	margin: 0;
+  	padding: 20px 0 20px 0;
+}
+
+/* Column */
+.column {
+	float: left;
+	width: 100%;
+}
+
+p {
+	margin: 0;
+  	padding: 0;
+}
+
+/* Add a card effect for posts */
+.card {
+	background-color: #424446;
+	border-color: #ffffff;
+	padding: 20px;
+	margin-top: 10px;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+.card-menu {
+	background-color: #424446;
+	border-color: #ffffff;
+	padding: 10px;
+	margin-top: 10px;
+	color: #ffffff;
+	border-radius: 5px;	
+}
+
+/* center items */
+.center {
+	margin: auto;
+	text-align: center;
+}
+
+/* paragraph with paddings */
+.para {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Links */
+.button {
+	background-color: #222222;
+	border: none;
+	color: #ffffff;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.button:hover {
+	background-color: #ffffff;
+	color: #222222;
+}
+
+.link-author {
+	border: none;
+	color: #1ac2ba;
+	text-decoration: none;
+	display: inline-block;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.link-author:hover {
+	color: #0d9e97;
+}
+
+.header-links {
+	background-color: #ffffff; 
+	color: #222222; 
+}
+
+.header-links:hover {
+	background-color: #222222;
+	color: #ffffff;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 800px) {
+	body {
+		width: 90%;
+		margin: auto;
+	}
+  	.column {   
+		width: 100%;
+		padding: 0;
+  	}
+  	.card p, img {
+  		width: 100%;
+  	}
+  	.card {
+		background-color: #424446;
+		border-color: #fff;
+		padding: 20px;
+		margin-top: 10px;
+		color: #ffffff;
+		border-radius: 5px;
+    }
+    .card-menu {
+    	background-color: #424446;
+		border-color: #ffffff;
+		padding: 10px;
+		margin-top: 10px;
+		color: #ffffff;
+		border-radius: 5px;	
+	}
+    .header-links {
+        width: 100%;
+    }
+}
