@@ -131,6 +131,11 @@ h5 {
 	color: #ffffff;
 }
 
+video {
+	width: 65%;
+  	height: auto;
+}
+
 /* Responsive layout */
 @media screen and (max-width: 800px) {
 	body {
@@ -163,5 +168,9 @@ h5 {
 	}
     .header-links {
         width: 100%;
+    }
+    video {
+    	width: 100%;
+		height: auto;
     }
 }
