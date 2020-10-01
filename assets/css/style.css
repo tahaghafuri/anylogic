@@ -164,4 +164,8 @@ h5 {
     .header-links {
         width: 100%;
     }
+    video {
+    	width: 280px;
+    	height: 280px;
+    }
 }
